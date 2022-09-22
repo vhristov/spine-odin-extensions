@@ -1,0 +1,21 @@
+{
+  "name": "com.loorix.spine-odin-extensions",
+  "displayName": "Spine and Odin Extensions",
+  "description": "This plugin provides extensions for the spine-unity runtime and odin inspector cooperation.\n\nPrerequisites:\nIt requires a working installation of the spine-unity runtime, version 4.1 and Odin Inspector 3.1.\n(See http://esotericsoftware.com/git/spine-runtimes/spine-unity and https://odininspector.com/)",
+  "version": "4.1.0",
+  "unity": "2019.3",
+  "author": {
+    "name": "Loorix",
+    "email": "vvtthristov@loorix.com",
+    "url": "https://github.com/vhristov/spine-odin-extensions"
+  },
+  "dependencies": {
+    "com.esotericsoftware.spine.spine-unity": "4.1"
+  },
+  "keywords": [
+    "spine",
+    "odin"
+  ],
+  "hideInEditor": false
+}
+

@@ -1,0 +1,22 @@
+{
+    "name": "spine-odin-extensions",
+    "rootNamespace": "",
+    "references": [
+        "spine-csharp",
+        "spine-unity",
+        "spine-unity-editor",
+        "Sirenix.OdinInspector.Editor",
+        "Sirenix.Utilities.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
