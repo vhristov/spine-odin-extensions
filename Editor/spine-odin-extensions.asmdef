@@ -6,6 +6,7 @@
         "spine-unity",
         "spine-unity-editor",
         "Sirenix.OdinInspector.Editor",
+        "Sirenix.OdinInspector.Attributes",
         "Sirenix.Utilities.Editor"
     ],
     "includePlatforms": [
