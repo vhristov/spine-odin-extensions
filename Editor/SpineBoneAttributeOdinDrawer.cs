@@ -32,6 +32,7 @@ namespace Loorix.SpineOdinExtensions
                 _value = value;
                 _asset = asset;
                 _attribute = attribute;
+                DrawConfirmSelectionButton = true;
             }
 
             public override string Title { get { return _asset.name; } }
@@ -40,6 +41,7 @@ namespace Loorix.SpineOdinExtensions
             {
                 tree.Config.DrawSearchToolbar = true;
                 tree.Config.UseCachedExpandedStates = false;
+                tree.Config.SelectMenuItemsOnMouseDown = true;
                 tree.Selection.SupportsMultiSelect = false;
 
                 if (_attribute.includeNone) {
