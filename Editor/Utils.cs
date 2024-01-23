@@ -7,6 +7,8 @@ namespace Loorix.SpineOdinExtensions
     {
         public static void SetGUIDrawerForType(Type type, Type drawer)
         {
+// Doesn't work in 2023.3+ as the code was removed in unity, but it works without this hack anyway
+#if !UNITY_2023_3_OR_NEWER
             var ScriptAttributeUtility = Type.GetType("UnityEditor.ScriptAttributeUtility,UnityEditor");
             var DrawerKeySet = ScriptAttributeUtility.GetNestedType("DrawerKeySet", BindingFlags.NonPublic);
 
@@ -29,6 +31,7 @@ namespace Loorix.SpineOdinExtensions
                 type,
                 newDrawer
             });
+#endif
         }
     }
 }
